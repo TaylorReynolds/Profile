@@ -1,6 +1,7 @@
 
 * {
   font-family:'Lato', 'Arial', sans-serif;
+  text-weight: thinner;
 }
 
 h1 {
@@ -13,11 +14,11 @@ h1 {
   background-position: center;
 }
 h2 {  
- text-weight:thin;
+ text-weight:thinner;
   color:rgba(0,0,0,0.5);
 }
 p {
-  text-weight:thin;
+  text-weight:thinner;
   color:rgba(0,0,0,0.5);
   text-align:center;
 }
