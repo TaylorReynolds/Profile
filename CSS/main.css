@@ -6,11 +6,13 @@
 h1 {
   text-weight:bold;
   color:white;
+
+}
+body {  
   background-image: url("https://c1.staticflickr.com/9/8429/28457761953_757fe2f1a1_k.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }
-
 p {
   text-weight:thin;
 }
