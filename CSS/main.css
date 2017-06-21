@@ -8,12 +8,13 @@ h1 {
   color:white;
   text-align:center;
   background-image: url("http://www.lifeofpix.com/wp-content/uploads/2016/08/Life-of-Pix-free-stock-landscape-reflections-mountains-StefanStefancik.jpeg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-body {  
-
+h2 {  
+ text-weight:thin;
+  color:rgba(0,0,0,0.5);
 }
 p {
   text-weight:thin;
