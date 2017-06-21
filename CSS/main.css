@@ -6,7 +6,9 @@
 h1 {
   text-weight:bold;
   color:white;
-  background-color:green;
+  background-image: url("https://www.flickr.com/photos/jmiske/28457761953/in/pool-mountrainiernps/");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 p {
