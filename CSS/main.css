@@ -5,6 +5,7 @@
 
 h1 {
   text-weight: bold;
+  text-color: rgba(255, 0, 0 .3);
 }
 
 p {
