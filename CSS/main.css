@@ -26,7 +26,6 @@ p {
   top: 0;
   left: 0;
   z-index: 1000;
-  display: inline-block;
   clear:none;
   overflow-y: auto;
 }
@@ -36,6 +35,8 @@ ul {
   margin:0;
   padding:0;
   text-align:center;
+  border: 1px solid rgba(0,0,0,0.3);
+  display: inline;
 }
 
 li:hover {
