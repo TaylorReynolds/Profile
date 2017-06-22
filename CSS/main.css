@@ -23,8 +23,7 @@ p {
   Padding: 0;
   z-index: 1000;
   display: inline;
-
-
+  float:left;
 }
 
 ul {
@@ -39,9 +38,8 @@ ul li{
   display: inline;
   margin:0;
   padding:0;
-  float:left;
   text-align: center;
-  width:50%
+  width:20%
 }
 
 ul li a{
@@ -50,7 +48,7 @@ ul li a{
   color:rgba(0,0,0,0.3);
 }
 
-ul li a:hover {
+ul li a:hover{
   background-color: rgba(0,0,0,0.3);
   color:white;
 }
@@ -58,34 +56,34 @@ ul li a:hover {
 .about{
   float:left;
   position:relative;
-  top-margin:20%
+  top-margin:100%;
   z-index:999;
 }
 
 .skills {
   float:right;
   position:relative;
-   top-margin:100%
+   top-margin:100%;
    z-index:999;
 }
 
 .experience {
   float:left;
   position:relative;
-  top-margin:100%
+  top-margin:100%;
   z-index:999;
 }
 
 .community {
   float:right;
   position:relative;
-  top-margin:100%
+  top-margin:100%;
   z-index:999;
 }
 .contact {
   text-align:center;
   Position:relative;
-  top-margin:100%
+  top-margin:100%;
   z-index:999;
 }
 
