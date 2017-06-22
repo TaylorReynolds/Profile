@@ -52,37 +52,43 @@ ul li a{
 ul li a:hover{
   background-color: rgba(0,0,0,0.3);
   color:white;
+  text-decoration: underline;
 }
   
 .about{
-  float:left;
+  width: 100%;
+  text-align: left;
   position:relative;
   top-margin:100%;
   z-index:999;
 }
 
 .skills {
-  float:right;
+  width: 100%;
+  text-align: right;
   position:relative;
    top-margin:100%;
    z-index:999;
 }
 
 .experience {
-  float:left;
+  width: 100%;
+  text-align: left;
   position:relative;
   top-margin:100%;
   z-index:999;
 }
 
 .community {
-  float:right;
+  width: 100%;
+  text-align: right;
   position:relative;
   top-margin:100%;
   z-index:999;
 }
 .contact {
-  text-align:center;
+  width: 100%;
+  text-align: center;
   Position:relative;
   top-margin:100%;
   z-index:999;
