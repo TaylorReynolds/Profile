@@ -1,19 +1,17 @@
 
 * {
-  font-family:'Raleway', 'Lato', sans-serif;
-  font-weight: thinner;
+  font-family:'Lato', 'Raleway', sans-serif;
+  font-weight: light;
 }
 
 h2 {  
- font-weight:thinner;
  color:rgba(0,0,0,0.3);
  font-style: italic;
   display: block;
-  border: 1px solid rgba(0,0,0,0.8);
-}
+
 
 p {
-  text-weight:thinner;
+  text-weight:light;
   color:white;
   text-align:center;
 }
@@ -26,9 +24,8 @@ p {
   Padding: 0;
   z-index: 1000;
   height: 80px;
+  line-height: 80px;
   width: 100%;
-  y-overflow: auto;
-  box-type: border-box;
 }
 
 ul {
@@ -65,7 +62,7 @@ ul li a:hover{
   text-align: left;
   z-index:999;
   margin:0;
-  top: 550px;
+  padding-top: 550px;
 }
 
 .skills {
