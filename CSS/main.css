@@ -4,18 +4,11 @@
   text-weight: thinner;
 }
 
-h1 {
-  text-weight:bold;
-  color:white;
-  text-align:center;
-  background-image: url("http://www.lifeofpix.com/wp-content/uploads/2016/08/Life-of-Pix-free-stock-landscape-reflections-mountains-StefanStefancik.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 h2 {  
  text-weight:thinner;
   color:rgba(0,0,0,0.5);
+  style: italics;
 }
 p {
   text-weight:thinner;
@@ -23,3 +16,18 @@ p {
   text-align:center;
 }
   
+.banner {
+  background-image: url("http://www.lifeofpix.com/wp-content/uploads/2016/08/Life-of-Pix-free-stock-landscape-reflections-mountains-StefanStefancik.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-weight:bold;
+  color:white;
+  text-align:center;
+}
