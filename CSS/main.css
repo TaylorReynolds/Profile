@@ -7,14 +7,17 @@
 h2 {  
  text-weight:thinner;
  color:rgba(0,0,0,0.3);
- style: italics;
+ style: italic;
 }
+
 p {
   text-weight:thinner;
   color:white;
   text-align:center;
 }
-  
+  div {
+    clear:both;
+}
 .banner {
   background-image: url("http://www.lifeofpix.com/wp-content/uploads/2016/08/Life-of-Pix-free-stock-landscape-reflections-mountains-StefanStefancik.jpeg");
   background-size: cover;
