@@ -61,8 +61,6 @@ ul li a:hover{
 .about{
   width: 100%;
   text-align: left;
-  position:relative;
-  top-margin:100%;
   z-index:999;
   margin:0;
 }
@@ -70,8 +68,6 @@ ul li a:hover{
 .skills {
   width: 100%;
   text-align: right;
-  position:relative;
-   top-margin:100%;
    z-index:999;
   margin: 0;
 }
@@ -79,8 +75,6 @@ ul li a:hover{
 .experience {
   width: 100%;
   text-align: left;
-  position:relative;
-  top-margin:100%;
   z-index:999;
   margin:0;
 }
@@ -88,16 +82,12 @@ ul li a:hover{
 .community {
   width: 100%;
   text-align: right;
-  position:relative;
-  top-margin:100%;
   z-index:999;
   margin: 0;
 }
 .contact {
   width: 100%;
   text-align: center;
-  Position:relative;
-  top-margin:100%;
   z-index:999;
   margin: 0;
 }
