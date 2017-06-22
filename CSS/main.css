@@ -28,6 +28,12 @@ p {
   z-index: 1000;
   display: inline;
 }
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
 
 li:hover {
   background-color: rgba(0,0,0,0.3);
