@@ -26,6 +26,8 @@ p {
   Padding: 0;
   z-index: 1000;
   height: 80px;
+  width: 100%;
+  y-overflow: auto;
   box-type: border-box;
 }
 
@@ -63,6 +65,7 @@ ul li a:hover{
   text-align: left;
   z-index:999;
   margin:0;
+  top: 550px;
 }
 
 .skills {
