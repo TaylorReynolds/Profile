@@ -7,7 +7,7 @@
 h2 {  
  text-weight:thinner;
  color:rgba(0,0,0,0.3);
- style: italics;
+ text-style: italics;
 }
 
 p {
@@ -28,7 +28,9 @@ p {
   z-index: 1000;
   display: inline-block;
   clear:none;
+  overflow-y: auto;
 }
+
 ul {
   list-style-type: none;
   margin:0;
