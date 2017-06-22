@@ -39,6 +39,11 @@ ul {
   display: inline;
 }
 
+li{
+  border: 1px solid rgba(0,0,0,0.3);
+  display: inline;
+}
+
 li:hover {
   background-color: rgba(0,0,0,0.3);
   color:white;
@@ -47,25 +52,30 @@ li:hover {
 .about{
   float:left;
   position:relative;
+  top-margin:20%
 }
 
 .skills {
   float:right;
   position:relative;
+    margin:20%
 }
 
 .experience {
   float:left;
   position:relative;
+  top-margin:20%
 }
 
 .community {
   float:right;
   position:relative;
+  top-margin:20%
 }
 .contact {
   text-align:center;
   Position:relative;
+  top-margin:20%
 }
 
 .banner {
