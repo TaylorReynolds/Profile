@@ -20,8 +20,9 @@ p {
 }
 
 .header {
-  width: 40%;
+  width: 100%;
   position: relative;
+  align-items:stretch;
   top: 0;
   left: 0;
   margin: 0;
@@ -31,6 +32,8 @@ p {
   overflow-y: auto;
   display: inline;
   size 2em;
+  height:80px
+
 }
 
 ul {
@@ -95,7 +98,6 @@ li:hover {
     background-position: center;
     background-repeat: no-repeat;
   overflow-y: auto;
- padding: 40px;
   position: fixed;
   left: 0;
   top: 80px;
