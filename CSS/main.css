@@ -1,13 +1,13 @@
 
 * {
   font-family:'Raleway', 'Lato', sans-serif;
-  text-weight: thinner;
+  font-weight: thinner;
 }
 
 h2 {  
- text-weight:thinner;
+ font-weight:thinner;
  color:rgba(0,0,0,0.3);
- text-style: italics;
+ font-style: italic;
 }
 
 p {
