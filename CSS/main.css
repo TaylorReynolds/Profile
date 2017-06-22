@@ -65,27 +65,27 @@ li:hover {
 .skills {
   float:right;
   position:relative;
-   top-margin:20%
+   top-margin:100%
    z-index:999;
 }
 
 .experience {
   float:left;
   position:relative;
-  top-margin:20%
+  top-margin:100%
   z-index:999;
 }
 
 .community {
   float:right;
   position:relative;
-  top-margin:20%
+  top-margin:100%
   z-index:999;
 }
 .contact {
   text-align:center;
   Position:relative;
-  top-margin:20%
+  top-margin:100%
   z-index:999;
 }
 
