@@ -25,13 +25,15 @@ p {
   margin: 0;
   Padding: 0;
   z-index: 1000;
-  display: inline;
+  height: 80px;
+  box-type: border-box;
 }
 
 ul {
   list-style-type: none;
   margin:0;
   padding:0;
+  display: inline;
 }
 
 ul li{
