@@ -18,6 +18,26 @@ p {
   div {
     clear:both;
 }
+
+.about{
+  float:left;
+}
+
+.skills {
+  float:right;
+}
+
+.experience {
+  float:left;
+}
+
+.community {
+  float:right;
+}
+.contact {
+  text-align:center;
+}
+
 .banner {
   background-image: url("http://www.lifeofpix.com/wp-content/uploads/2016/08/Life-of-Pix-free-stock-landscape-reflections-mountains-StefanStefancik.jpeg");
   background-size: cover;
