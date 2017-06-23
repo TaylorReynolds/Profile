@@ -95,7 +95,7 @@ ul li a:hover{
 }
 
 .banner {
-  background: rgba(255, 0,0,0.8);
+  background-image: url('D:\Users\Taylor\Desktop\background.jpeg');
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
