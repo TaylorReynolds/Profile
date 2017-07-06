@@ -1,113 +1,251 @@
-
-* {
-  font-family:'Lato', 'Raleway', sans-serif;
-  font-weight: light;
+body{
+ background: rgb(240,240,240);
+ color: rgb(20,20,20);
+ font-family:'Lato', 'Raleway', sans-serif;
+ margin:0;
 }
 
-h2 {  
- color:rgba(0,0,0,0.3);
- font-style: italic;
-  display: block;
+#banner{
+    color: rgb(240,240,240);
+     background: linear-gradient(rgb(20,20,20), transparent 90%),
+              rgb(90,90,90) url('https://user-images.githubusercontent.com/29584199/27569603-40b9660e-5aad-11e7-918f-97f17182f62b.JPG') no-repeat center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    padding-bottom: 857px;
+    padding-top: 184px;
+    padding-left: 40px;
+    margin-top: -166px;
 }
 
+#banner p{
+    color: rgb(240,240,240);
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#banner h1{
+    color: rgb(240,240,240);
+    font-size: 50px;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: lighter;
+    margin-bottom: 0px
+}
+.container-fluid{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+}
+.attributes{
+    text-align: center;
+    max-width: 100%;
+    margin: 0;
+    padding:0;
+}
+
+h2 {
+     font-style: italic;
+     font-size: 24px;
+     font-weight: 300;
+     padding-top: 3%;
+
+}
+
+h4{
+    padding: 10px;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+ .videoContainer {
+     position:relative;
+	padding-top:30px;
+    margin-bottom:4%;
+	overflow:hidden;
+    margin-top: 3%;
+
+}
+
+.videoContainer iframe, .videoContainer object, .videoContainer embed {
+	position: relative;
+}
+#footer{
+    color: rgb(240,240,240);
+    font-size: 16px;
+    opacity: 0.7;
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(90,90,90);
+    margin-top: 50px;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+    width: 100%;
+    height: 60px;
+}
+#footer p{
+    margin:-14px;
+}
 p {
-  text-weight:light;
-  color:white;
-  text-align:center;
+    font-weight: lighter;
+   padding-bottom: 10px;
+    font-size: 16px;
+
+}
+ li{
+     border:solid 1px rgb(90,90,90);
+     border-radius: 4px;
+     color: rgb(90,90,90);
+     font-size: 22px;
+     Padding:10px;
+     width:100%;
+     margin: 0;
+ }
+
+ li:hover{
+     border: solid 1px rgb(240,240,240);
+     border-radius: 4px;
+     color: rgb(240,240,240);
+     background: rgb(90,90,90);
+     cursor: pointer;
+ }
+
+ve{
+    text-decoration: underline;
+    padding:10px
 }
 
-.header {
-  position: absolute;
-  top:0;
-  left:0;
-  margin: 0;
-  Padding: 0;
-  z-index: 1000;
-  height: 80px;
-  line-height: 80px;
-  overflow: hidden;
-  display: table;
-  width: 100%;
-}
-
-ul {
-  list-style-type: none;
-  margin:0;
-  padding:0;
-  overflow: hidden;
-  display: table-row;
+ul{
+    list-style-type: none;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 ul li{
-  border: 1px solid rgba(0,0,0,0.3);
-  border-radius: 4px;
-  float: left;
-  margin:0;
-  padding:0;
-  text-align: center;
-  display: table-cell;
+    text-align:center;
+    font-size: 18px;
+    color:rgb(240,240,240);
+    text-decoration: none;
+    width: 100%;
+    overflow: auto;
 }
 
-ul li a{
-  display: inline;
-  text-decoration: none;
-  color:rgba(0,0,0,0.3);
-  width: 100%;
+.tables{
+    color:rgb(240,240,240);
+    width: 100%;
+    margin:0;
+    position:relative;
+    Padding-bottom: 550px;
+    background: linear-gradient(rgb(20,20,20), transparent 90%),
+              rgb(90,90,90) url('https://user-images.githubusercontent.com/29584199/27715543-e3398170-5cec-11e7-9365-876b60846a80.JPG') no-repeat center;
+    background-size: cover;
 }
 
-ul li a:hover{
-  background-color: rgba(0,0,0,0.3);
-  color:white;
+.hiddenskill1{
+    border:none;
+    background:none;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    line-height: 32px;
 }
-  
-.about{
-  width: 100%;
-  text-align: left;
-  z-index:999;
-  margin:0;
-  padding-top: 550px;
+.hiddenskill1:hover{    
+    background:none;
+    border:none;
+}
+.hiddenskill2{
+    border:none;
+    background:none;
+     text-align: center;
+    padding: 20px;
+    width: 100%;
+    line-height: 32px;
+}
+.hiddenskill2:hover{    
+    background:none;
+    border:none;
+}
+.hiddenskill3{
+    border:none;
+    background:none;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    line-height: 32px;
+}
+.hiddenskill3:hover{    
+    background:none;
+    border:none;
+}
+.hiddenskill4{
+    border:none;
+    background:none;
+     text-align: center;
+    padding: 20px;
+    width: 100%;
+    line-height: 32px;
+}
+.hiddenskill4:hover{    
+    background:none;
+    border:none;
+}
+.theatreLogo{
+    width:18%;
 }
 
-.skills {
-  width: 100%;
-  text-align: right;
-   z-index:999;
-  margin: 0;
+#tahomaLogo{
+    width: 18%;
 }
 
-.experience {
-  width: 100%;
-  text-align: left;
-  z-index:999;
-  margin:0;
+.attributes a{
+    color:rgb(240,240,240);
+    background: linear-gradient(#334F69, #6D9BD5);
+    border-radius: 4px;
+    font-size: 16px;   
+    padding: 10px;
+    text-align: center;
 }
 
-.community {
-  width: 100%;
-  text-align: right;
-  z-index:999;
-  margin: 0;
-}
-.contact {
-  width: 100%;
-  text-align: center;
-  z-index:999;
-  margin: 0;
+.attributes a:hover{
+    color:rgb(20,20,20);
+    background: linear-gradient(#6D9BD5,#334F69);
+    border-radius: 4px;
+    font-size: 16px;   
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.banner {
-  background-image: url('https://user-images.githubusercontent.com/29584199/27496866-aabb3120-580c-11e7-9dbb-5c6e4bf023e5.JPG');
-  background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  background-image: radial-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6));
-  overflow-y: auto;
-  position: fixed;
-  left: 0;
-  top: 80px;
-  height: 450px;
-  z-index: 1;
-  text-weight:bold;
-  color:white;
-  text-align:center;
+.finalCall{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.finalCall a{
+    color:rgb(240,240,240);
+    background: linear-gradient(#334F69, #6D9BD5);
+    border-radius: 4px;
+    font-size: 24px;   
+    padding: 18px;
+    padding-left: 124px;
+    padding-right: 124px;
+    text-align: center;
+}
+
+.finalCall a:hover{
+    color:rgb(20,20,20);
+    background: linear-gradient(#6D9BD5,#334F69);
+    border-radius: 4px;
+    font-size: 24px;   
+    padding: 18px;
+    padding-left: 124px;
+    padding-right: 124px;
+    text-align: center;
+    text-decoration: none;
 }
